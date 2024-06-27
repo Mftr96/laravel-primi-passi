@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//provo a scrivere percorso per altro 
+//nel get metto la rotta per la pagina che voglio mostrare
+Route::get('/seconda',function(){
+    //qui metto il nome del file 
+return view('altro');
+});
